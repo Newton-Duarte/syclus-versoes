@@ -52,3 +52,10 @@ group :development do
   gem 'spring'
 end
 
+group :production do
+  # Heroku Dependecy
+  gem 'pg'
+  # Heroku Dependecy
+  gem 'rails_12factor'
+end
+
