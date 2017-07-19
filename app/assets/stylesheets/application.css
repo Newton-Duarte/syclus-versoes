@@ -11,5 +11,32 @@
  * file per style scope.
  *
  *= require_tree .
+ *= require bootstrap
  *= require_self
  */
+
+.search-form input[type=text] {
+  width: 30%;
+  display: inline;
+}
+
+@media (max-width: 480px) {
+  .search-form input[type=text] {
+    width: 50%;
+    display: inline;
+    margin-bottom: 10px;
+  }
+  .search-form {
+    display: inline;
+  }
+  form {
+    display: inline;
+  }
+  .col-md-6 {
+    display: inline;
+  }
+}
+
+.table {
+  margin-bottom: 0px;
+}

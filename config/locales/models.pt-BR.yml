@@ -1,0 +1,16 @@
+"pt-BR":
+  activerecord:
+    models:
+      customer:
+        one: Cliente
+        other: Clientes
+      version:
+        one: Versão
+        other: Versões
+    attributes:
+      customer:
+        name: Razão Social
+        version: Versão
+        version_id: Versão
+      version:
+        description: Versão

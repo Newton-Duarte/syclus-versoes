@@ -1,0 +1,9 @@
+"pt-BR":
+  buttons:
+    new: Novo
+    show: Mostrar
+    edit: Alterar
+    destroy: Excluir
+    back: Cancelar
+    submit: Confirmar
+    search: Filtrar
